@@ -10,7 +10,6 @@ concurrency:
 
 env:
   CN_APPLICATION: "cn-testing/koi-pond"
-  CN_ENV: qa
 
 jobs:
   draft:
