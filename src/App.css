@@ -22,7 +22,6 @@ body:before {
   opacity: 0.1;
   background-size: cover;
   background-position: bottom center;
-  position: absolute;
 }
 
 .container {

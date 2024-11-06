@@ -9,7 +9,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  CN_APPLICATION: "cn-testing/koi-pond"
+  CN_APPLICATION: "crabnebula/koi-pond"
 
 jobs:
   draft:

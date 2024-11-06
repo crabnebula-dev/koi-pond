@@ -42,7 +42,6 @@ pub fn run() {
             window
                 .set_ignore_cursor_events(true)
                 .expect("Failed to set ignore cursor events");
-            window.maximize().expect("Could not maximize window");
 
             let app_handle = app.handle().clone();
             listen_for_mouse_events(app_handle);
