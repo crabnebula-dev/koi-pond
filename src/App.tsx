@@ -71,8 +71,8 @@ function App() {
   };
 
   const calculateStyle = (position: Position) => {
-    return `position: absolute; left: ${position.x - 50}px; top: ${
-      position.y - 80
+    return `position: absolute; left: ${position.x - 90}px; top: ${
+      position.y - 75
     }px; 
     animation-timing-function: ease-in-out;
     transition: top 1.5s, left 1.5s, transform 0.5s;
