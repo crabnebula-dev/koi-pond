@@ -1,6 +1,6 @@
 {
   "productName": "koi-pond",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "identifier": "com.koi-pond.app",
   "build": {
     "beforeDevCommand": "pnpm dev",
