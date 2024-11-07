@@ -1,11 +1,15 @@
 import "./App.css";
-import { createSignal, onCleanup, createEffect } from "solid-js";
+import { createSignal, onCleanup, createEffect, onMount } from "solid-js";
 import { listen } from "@tauri-apps/api/event";
+import { checkForAppUpdates } from "./updater";
 
 const images = import.meta.glob("./assets/koi-frames/*.png", { eager: true });
 
 
 function App() {
+  onMount(async () => {
+    await checkForAppUpdates();
+  });
   let koiRef: HTMLDivElement;
 
   type Position = {
