@@ -6,7 +6,6 @@ export async function checkForAppUpdates() {
   const update = await check();
 
   if (update?.available) {
-    console.log("Available");
     const yes = await ask(
       `
 Update to ${update.version} is available!
